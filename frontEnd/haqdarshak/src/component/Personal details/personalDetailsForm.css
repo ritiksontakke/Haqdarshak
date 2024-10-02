@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+.loginContainer {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 103vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+.loginContainer > form {
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 32px;
+    background: #F3F1EF;
+    position: relative;
+    top: 9%;
+}
+
+pre {
+  width: 70%;
+  color: #fff;
+  font-size: larger;
+}
+
+.loginContainer .text {
+  margin: 20px 0;
+  padding: 5px;
+}
+
+/* .loginContainer span {
+  color: rgb(0, 95, 236);
+  cursor: pointer;
+} */
+.gender {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+.inputGender {
+  margin-right: 5px;
+}
+.dobOption {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.orSpan{
+  color: black;
+    margin-top: 7px;
+    font-size: 20px;
+}
+.age{
+  background: #cccccc;
+  border-radius: 15px;
+}
+.Next {
+  width: 296px;
+  height: 64px;
+  background-color: #4F285E;
+  border: none;
+  color: white;
+  text-align: center;
+  border-radius: 32px;
+  margin: auto;
+  font-size: 20px;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+}
+.terms{
+  font-size: 13px;
+  text-align: center;
+  color: rgba(116, 116, 116, 0.842);
+
+}
+a{
+  color:rgba(116, 116, 116, 0.842) ;
+}
+@media screen and (min-width: 340px) and (max-width:411px) {
+  .orSpan{
+    color: black;
+    margin: 8px;
+    font-size: 19px;
+    position: relative;
+    bottom: 12px;
+  }
+  .form-details{
+    height: 580px;
+  }
+/* .age{
+  position: relative;
+  bottom: 8px;
+} */
+}

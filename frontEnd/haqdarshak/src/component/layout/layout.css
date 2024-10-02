@@ -1,0 +1,58 @@
+/* .app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(100, 11, 100); 
+  }
+.back{
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.content{
+    margin: 40px;
+    color: white;
+  
+}
+  .white-box {
+    background-color: white;
+    margin: auto;
+    width: 70vh;
+    height: 90vh;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+.input{
+    display: flex;
+    flex-direction: column;
+
+}
+label{
+    width: 400px;
+    height: 60px;
+    margin: 15px;
+    padding: 13px;
+    border-radius: 20px;
+    background-color: beige;
+}
+.language{
+    position: relative;
+    left: 50px;
+}
+.next{
+    width: 120px;
+    height: 40px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    font-size: 25px;
+    display: grid;
+    place-items: center;
+} */

@@ -1,0 +1,67 @@
+.homeImg{
+        background: linear-gradient(
+            rgba(7, 7, 7, 0.5), 
+            rgba(2, 2, 2, 0.9)),  url(https://d1rt8w07cu7021.cloudfront.net/wp-content/uploads/2023/01/HQ_SK_04.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        backface-visibility: visible;
+        height: 640px;    
+}
+.homeText{
+    color: rgb(255, 0, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+}
+.haqHind{
+    font-size: 150px;
+    margin: 50px;
+    font-family: auto;
+}
+.haqEng{
+    color: white;
+    font-size: 140px;
+    font-weight: 300;
+    font-family: auto;
+}
+.HomeNext{
+
+        width: 120px;
+        height: 40px;
+        background-color: blueviolet;
+        border: none;
+        color: white;
+        text-align: center;
+        border-radius: 20px;
+        margin-top:30px;
+        font-size: 25px;
+        display: grid;
+        place-items: center;
+
+}
+@media screen and (min-width: 412px) and (max-width:1200px) {
+    .homeImg{
+     
+        height: 780px    
+}
+    .haqHind{
+        font-size: 80px;
+    }
+    .haqEng{
+        font-size: 70px;
+    }
+  }
+  @media screen and (min-width: 340px) and (max-width:411px) {
+    .homeImg{
+     
+        height: 780px;    
+}
+    .haqHind{
+        font-size: 70px;
+    }
+    .haqEng{
+        font-size: 60px;
+    }
+  }

@@ -1,0 +1,55 @@
+.orNumber{
+    height: 160px;
+    position: relative;
+    top: 9%;
+}
+.yojanaBackground{
+    background-color: palevioletred;
+    height: 710px;
+}
+.yojanaFont{
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+}
+.img{
+    width: 200px;
+    border: 5px solid rgb(128, 0, 85);
+}
+.imgLable{
+    width: 206px;
+    height: 30px;
+}
+.orYojana{
+    text-align: center;
+}
+.NextYojana{
+    width: 300px;
+    height: 50px;
+    background-color: #5d00b3;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    font-size: 25px;
+    display: grid;
+    place-items: center;
+}
+@media screen and (min-width: 412px) and (max-width:1200px) {
+    .yojanaBackground{
+     
+        height: 1000px    
+  }
+  
+  }
+  @media screen and (min-width: 340px) and (max-width:411px) {
+    .yojanaBackground{
+     
+      height: 900px    
+  }
+  
+  }

@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .loginContainer {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .loginContainer > form {
+      border: 1px solid #dfdfdf;
+      padding: 20px;
+      border-radius: 25px;
+      background: #fffffff7;
+  }
+  
+  pre {
+    width: 70%;
+    color: #fff;
+    font-size: larger;
+  }
+  
+  .loginContainer .text {
+    margin: 20px 0;
+    padding: 5px;
+  }
+  
+  .loginContainer span {
+    color: rgb(0, 95, 236);
+    cursor: pointer;
+  }
+  .gender {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+  }
+  .inputGender {
+    margin-right: 5px;
+  }
+  .dobOption {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .orSpan{
+    color: black;
+      margin-top: 7px;
+      font-size: 20px;
+  }
+  .age{
+    background: #cccccc;
+    border-radius: 15px;
+  }
+  .Next {
+    width: 120px;
+    height: 40px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    font-size: 25px;
+    display: grid;
+    place-items: center;
+  }
+  .terms{
+    font-size: 13px;
+    text-align: center;
+    color: rgba(116, 116, 116, 0.842);
+  
+  }
+  a{
+    color:rgba(116, 116, 116, 0.842) ;
+  }
+  .white {
+    background-color: rgba(207, 207, 206, 0.74);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example box shadow */
+    border: 0.2px solid rgb(179, 179, 177);
+  }
+.input{
+    display: flex;
+    flex-direction: column;
+
+}
+.background{
+    background-color: rgb(100, 11, 100); 
+    height: 658px;
+}
+.font{
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+}
+.form{
+   height: 500px;
+   border-radius: 25px;
+}
+.back{
+    margin-right: 375px;
+}
+.quat{
+  text-align: center;
+  color: rgba(117, 117, 117, 0.849);
+  margin-top: 10px;
+}  

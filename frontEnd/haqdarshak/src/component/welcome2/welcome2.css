@@ -1,0 +1,26 @@
+
+.getStarted{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+    width: 250px;
+    height: 60px;
+    text-align: center;
+}
+
+.welcome2{
+    color: #f8f8f8;
+}
+.welcomeCheckbox{
+    margin-right: 15px;
+}
+.hero{
+    font-size: 20px;
+    display: flex;
+    align-items: baseline;
+}
+.benifits{
+    font-style: poppins;
+}

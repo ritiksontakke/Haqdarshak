@@ -1,0 +1,71 @@
+  .white {
+    background-color: #E5E2DE;
+    border: 1px solid #D1CFCD
+  }
+.input{
+    display: flex;
+    flex-direction: column;
+
+}
+.back-button{
+  background: #FFFFFF;
+  width: 56px;
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 64px;
+  position: relative;
+  right: 44%;
+  border: none;
+}
+.background{
+    background-color: #4F285E; 
+    height: 740px;
+}
+.font{
+  color: #FFFFFF;
+  margin-bottom: -3rem;
+font-family: Poppins;
+font-size: 32px;
+font-weight: 500;
+line-height: 48px;
+text-align: left;
+
+}
+.form{
+   height: 570px;
+   border-radius: 25px;
+   width: 107% !important;
+}
+.field{
+  position: relative;
+  right: 3%;
+}
+.back{
+    margin-right: 375px;
+}
+.quat{
+  text-align: center;
+  color: rgba(117, 117, 117, 0.849);
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 412px) and (max-width:1200px) {
+  .background{
+   
+      height: 950px    
+}
+
+}
+@media screen and (min-width: 340px) and (max-width:411px) {
+  .background{
+   
+    height: 818px    
+}
+.white{
+  height: 60px;
+}
+.inputAdd{
+  height: 27px;
+}
+
+}

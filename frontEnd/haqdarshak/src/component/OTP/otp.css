@@ -1,0 +1,21 @@
+.otpInput{
+    text-align: center;
+    margin: 10px;
+    font-size: 1.2rem;
+    outline: none;
+    background: #E5E2DE;
+    width: 68px;
+    height: 70px;
+    gap: 0px;
+    border-radius: 24px ;
+    border: 1px solid #E5E2DE;
+    opacity: 0px;
+
+}
+.otpBody{
+    display: flex;
+    justify-content: center;
+}
+.otpPara{
+    color: #746E6A;
+}
