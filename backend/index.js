@@ -23,12 +23,12 @@ app.use('/',userRouter)
 
 
 
-console.log(process.env.NODE_DATA_BASE)
+// console.log(process.env.NODE_DATA_BASE)
 mongoose.connect(process.env.NODE_DATA_BASE)
 .then(()=>{
         app.listen(port , ()=>{
                 console.log("Database Connected");
-            console.log("Server started on port no.4000" );
+            console.log("Server started on port no:"+port);
         })
     
     })
