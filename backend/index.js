@@ -5,7 +5,7 @@ const cors = require('cors');
 const userRouter = require('./routes/userRoute');
 require('dotenv').config()
 
-const port = process.env.PORT || 4000;
+const port = process.env.NODE_PORT || 4000;
 
 
 app.use(express.json())
@@ -23,8 +23,8 @@ app.use('/',userRouter)
 
 
 
-console.log(process.env.DATA_BASE)
-mongoose.connect(process.env.DATA_BASE)
+console.log(process.env.NODE_DATA_BASE)
+mongoose.connect(process.env.NODE_DATA_BASE)
 .then(()=>{
         app.listen(port , ()=>{
                 console.log("Database Connected");

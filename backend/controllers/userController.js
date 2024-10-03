@@ -4,7 +4,7 @@ const userContact= require('../models/userContact')
 const userAddress= require('../models/userAddress')
 
 const jwt = require("jsonwebtoken");
-const SECRET_KEY = "process.env.SECRET_KEY";
+const SECRET_KEY = "process.env.NODE_SECRET_KEY";
 const signup=async(req,res)=>{
 
         const {name , gender , dob , age, phn} = req.body;
@@ -42,7 +42,7 @@ const NumberLogin=async(req,res)=>{
                 return res.status(404).json({message:"User NOT FOUND"});
                }
             
-            const token = jwt.sign({phn:phn,id:existingUser._id}, SECRET_KEY) ;
+            const token = jwt.sign({phn:phn,id:existingUser._id},SECRET_KEY) ;
             
             res.status(200).json({message:"LoggedIn Successfully",user:existingUser,token:token});
             
@@ -70,7 +70,7 @@ const NumberLogin=async(req,res)=>{
             phn:phn
            });
 
-           const token = jwt.sign({id:result._id}, SECRET_KEY)
+           const token = jwt.sign({id:result._id},SECRET_KEY)
            res.status(201).json({message:"Phn Number Updated Successfully",result:result,token:token})
         } catch (error) {
             res.send(error);
@@ -92,7 +92,7 @@ const userAdd=async(req,res)=>{
         pinCode : pinCode
        });
 
-       const token = jwt.sign({id:result._id}, SECRET_KEY)
+       const token = jwt.sign({id:result._id},SECRET_KEY)
        res.status(201).json({message:"Address updated Successfully",result:result,token:token})
     } catch (error) {
         res.send(error);
